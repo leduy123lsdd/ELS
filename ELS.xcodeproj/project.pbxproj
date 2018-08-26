@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C7D9B5A21325A6400F0AD26 /* UnitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C7D9B5921325A6400F0AD26 /* UnitCell.swift */; };
 		0C81EBA8212FB57D00837A1D /* gradeCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C81EBA7212FB57D00837A1D /* gradeCategory.swift */; };
 		0C81EBAA212FEB4B00837A1D /* UnitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C81EBA9212FEB4B00837A1D /* UnitViewController.swift */; };
 		0CEA9B76212EB45400D595F5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CEA9B75212EB45400D595F5 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C7D9B5921325A6400F0AD26 /* UnitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitCell.swift; sourceTree = "<group>"; };
 		0C81EBA7212FB57D00837A1D /* gradeCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gradeCategory.swift; sourceTree = "<group>"; };
 		0C81EBA9212FEB4B00837A1D /* UnitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitViewController.swift; sourceTree = "<group>"; };
 		0CEA9B72212EB45400D595F5 /* ELS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ELS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,8 +101,9 @@
 			isa = PBXGroup;
 			children = (
 				0CEA9B77212EB45400D595F5 /* ViewController.swift */,
-				0CEA9B8A212EC5CA00D595F5 /* gradeCollectionViewCell.swift */,
 				0C81EBA9212FEB4B00837A1D /* UnitViewController.swift */,
+				0CEA9B8A212EC5CA00D595F5 /* gradeCollectionViewCell.swift */,
+				0C7D9B5921325A6400F0AD26 /* UnitCell.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0CEA9B8B212EC5CA00D595F5 /* gradeCollectionViewCell.swift in Sources */,
+				0C7D9B5A21325A6400F0AD26 /* UnitCell.swift in Sources */,
 				0CEA9B78212EB45400D595F5 /* ViewController.swift in Sources */,
 				0C81EBAA212FEB4B00837A1D /* UnitViewController.swift in Sources */,
 				0CEA9B76212EB45400D595F5 /* AppDelegate.swift in Sources */,

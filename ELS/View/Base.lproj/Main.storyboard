@@ -105,14 +105,14 @@
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="BjR-Zs-WjM">
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="BjR-Zs-WjM" customClass="UnitCell" customModule="ELS" customModuleProvider="target">
                                         <rect key="frame" x="3.5" y="0.0" width="368" height="186"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
                                             <rect key="frame" x="0.0" y="0.0" width="368" height="186"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="grade10" translatesAutoresizingMaskIntoConstraints="NO" id="Hhr-ik-Umc">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Hhr-ik-Umc">
                                                     <rect key="frame" x="0.0" y="0.0" width="368" height="186"/>
                                                 </imageView>
                                             </subviews>
@@ -123,6 +123,9 @@
                                             <constraint firstItem="Hhr-ik-Umc" firstAttribute="top" secondItem="BjR-Zs-WjM" secondAttribute="top" id="L20-QB-fSf"/>
                                             <constraint firstAttribute="trailing" secondItem="Hhr-ik-Umc" secondAttribute="trailing" id="cuf-oY-zxt"/>
                                         </constraints>
+                                        <connections>
+                                            <outlet property="unitImage" destination="Hhr-ik-Umc" id="DhR-3r-D8W"/>
+                                        </connections>
                                     </collectionViewCell>
                                 </cells>
                                 <connections>
@@ -164,7 +167,4 @@
             <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="grade10" width="880" height="582"/>
-    </resources>
 </document>
