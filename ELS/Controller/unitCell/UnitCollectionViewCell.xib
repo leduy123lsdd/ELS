@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="Cell" id="2aB-Re-azI" customClass="UnitCollectionViewCell" customModule="ELS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="288" height="159"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="288" height="159"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tte-Qk-pxx" userLabel="GradeImage">
+                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="Ebi-cf-ERE"/>
+                            <constraint firstAttribute="width" constant="50" id="q0l-IJ-xOQ"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rdl-ad-xpG">
+                        <rect key="frame" x="50" y="0.0" width="238" height="159"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehX-zR-ksO">
+                                <rect key="frame" x="8" y="8" width="222" height="20.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="ehX-zR-ksO" firstAttribute="top" secondItem="rdl-ad-xpG" secondAttribute="topMargin" id="3la-Yf-e6h"/>
+                            <constraint firstItem="ehX-zR-ksO" firstAttribute="leading" secondItem="rdl-ad-xpG" secondAttribute="leadingMargin" id="q8F-DK-ujZ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="ehX-zR-ksO" secondAttribute="trailing" id="zTg-6V-0Gr"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="tte-Qk-pxx" firstAttribute="top" secondItem="2aB-Re-azI" secondAttribute="top" id="5lO-Fg-A6O"/>
+                <constraint firstAttribute="bottom" secondItem="rdl-ad-xpG" secondAttribute="bottom" id="Knz-Dk-qA0"/>
+                <constraint firstAttribute="trailing" secondItem="rdl-ad-xpG" secondAttribute="trailing" id="Pcf-Gh-17x"/>
+                <constraint firstItem="rdl-ad-xpG" firstAttribute="leading" secondItem="tte-Qk-pxx" secondAttribute="trailing" id="RbH-dV-8K2"/>
+                <constraint firstItem="rdl-ad-xpG" firstAttribute="top" secondItem="2aB-Re-azI" secondAttribute="top" id="nl9-mX-nbb"/>
+                <constraint firstItem="tte-Qk-pxx" firstAttribute="leading" secondItem="2aB-Re-azI" secondAttribute="leading" id="tO6-Cq-DZX"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="iY1-f7-hdJ"/>
+            <size key="customSize" width="288" height="474"/>
+            <connections>
+                <outlet property="image" destination="tte-Qk-pxx" id="9pX-0U-fId"/>
+                <outlet property="label" destination="ehX-zR-ksO" id="pPR-Ms-esi"/>
+            </connections>
+            <point key="canvasLocation" x="57" y="-400.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
