@@ -37,11 +37,17 @@ extension UnitViewController : UICollectionViewDelegate, UICollectionViewDataSou
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "Cell", for: indexPath) as! UnitCollectionViewCell
-        cell.image.image = UIImage(named: "number1")
-        cell.label.text = " two ways to get two ways to get two ways to get two ways to get "
+        cell.image.image = UIImage(named: "number\(indexPath.row + 1)")
+        cell.label.text = "Two ways to get two ways to get two ways to get two ways to get "
          //  reduced in order to fit the title string into the label’s bounding rectangle.
         
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        let StoryBoard = UIStoryboard(name: "UnitPopup", bundle: nil) // bundle là tên của project của bạn, nếu để nil thì mặc định bundle là project mà storyboard đang ở trong.
+        let popup = StoryBoard.instantiateInitialViewController()!
+        self.present(popup, animated: true)
     }
     
 }

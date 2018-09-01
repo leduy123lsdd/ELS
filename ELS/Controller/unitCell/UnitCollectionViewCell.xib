@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -20,39 +19,36 @@
                 <rect key="frame" x="0.0" y="0.0" width="288" height="159"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tte-Qk-pxx" userLabel="GradeImage">
-                        <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="tte-Qk-pxx" userLabel="GradeImage">
+                        <rect key="frame" x="5" y="5" width="50" height="50"/>
                         <constraints>
-                            <constraint firstAttribute="height" constant="50" id="Ebi-cf-ERE"/>
-                            <constraint firstAttribute="width" constant="50" id="q0l-IJ-xOQ"/>
+                            <constraint firstAttribute="width" constant="50" id="VCe-y5-Dtg"/>
+                            <constraint firstAttribute="height" constant="50" id="lNP-Vk-UOm"/>
                         </constraints>
                     </imageView>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rdl-ad-xpG">
-                        <rect key="frame" x="50" y="0.0" width="238" height="159"/>
+                    <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="rdl-ad-xpG">
+                        <rect key="frame" x="60" y="5" width="223" height="149"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehX-zR-ksO">
-                                <rect key="frame" x="8" y="8" width="222" height="20.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="750" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehX-zR-ksO">
+                                <rect key="frame" x="8" y="0.0" width="212" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="ehX-zR-ksO" firstAttribute="top" secondItem="rdl-ad-xpG" secondAttribute="topMargin" id="3la-Yf-e6h"/>
-                            <constraint firstItem="ehX-zR-ksO" firstAttribute="leading" secondItem="rdl-ad-xpG" secondAttribute="leadingMargin" id="q8F-DK-ujZ"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ehX-zR-ksO" secondAttribute="trailing" id="zTg-6V-0Gr"/>
-                        </constraints>
                     </view>
                 </subviews>
             </view>
+            <color key="backgroundColor" red="0.62032043147208116" green="0.52624859013092495" blue="0.10648092419606686" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
             <constraints>
-                <constraint firstItem="tte-Qk-pxx" firstAttribute="top" secondItem="2aB-Re-azI" secondAttribute="top" id="5lO-Fg-A6O"/>
-                <constraint firstAttribute="bottom" secondItem="rdl-ad-xpG" secondAttribute="bottom" id="Knz-Dk-qA0"/>
-                <constraint firstAttribute="trailing" secondItem="rdl-ad-xpG" secondAttribute="trailing" id="Pcf-Gh-17x"/>
-                <constraint firstItem="rdl-ad-xpG" firstAttribute="leading" secondItem="tte-Qk-pxx" secondAttribute="trailing" id="RbH-dV-8K2"/>
-                <constraint firstItem="rdl-ad-xpG" firstAttribute="top" secondItem="2aB-Re-azI" secondAttribute="top" id="nl9-mX-nbb"/>
-                <constraint firstItem="tte-Qk-pxx" firstAttribute="leading" secondItem="2aB-Re-azI" secondAttribute="leading" id="tO6-Cq-DZX"/>
+                <constraint firstItem="rdl-ad-xpG" firstAttribute="leading" secondItem="tte-Qk-pxx" secondAttribute="trailing" constant="5" id="5GV-bS-omC"/>
+                <constraint firstItem="tte-Qk-pxx" firstAttribute="top" secondItem="2aB-Re-azI" secondAttribute="top" constant="5" id="Nyz-Xg-Jvo"/>
+                <constraint firstItem="tte-Qk-pxx" firstAttribute="leading" secondItem="2aB-Re-azI" secondAttribute="leading" constant="5" id="TMz-is-Cu8"/>
+                <constraint firstAttribute="trailing" secondItem="rdl-ad-xpG" secondAttribute="trailing" constant="5" id="eyh-8Y-EJ2"/>
+                <constraint firstItem="rdl-ad-xpG" firstAttribute="top" secondItem="2aB-Re-azI" secondAttribute="top" constant="5" id="kxv-Sk-bzg"/>
+                <constraint firstAttribute="bottom" secondItem="rdl-ad-xpG" secondAttribute="bottom" constant="5" id="msC-j2-4Rc"/>
             </constraints>
             <viewLayoutGuide key="safeArea" id="iY1-f7-hdJ"/>
             <size key="customSize" width="288" height="474"/>
