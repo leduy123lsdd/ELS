@@ -10,21 +10,47 @@ import UIKit
 
 class UnitPopupViewController: UIViewController {
 
+    
+    var currentlyTrait: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-    }
-    @IBAction func VocaburalyButton(_ sender: Any) {
-        dismiss(animated: true)
     }
     
-    @IBAction func GrammarButton(_ sender: Any) {
-        dismiss(animated: true)
-
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let a = segue.destination as! ContentViewController
+        a.selectedTrait = currentlyTrait
     }
     
-    @IBAction func PronounciationButton(_ sender: Any) {
-        dismiss(animated: true)
+    @IBAction func X_Button(_ sender: UIButton) {
+        dismiss(animated: true, completion: nil)
     }
+    
+    @IBAction func VocaburalyButton(_ sender: UIButton) {
+        
+        currentlyTrait = (sender.titleLabel?.text!)!
+        performSegue(withIdentifier: "Content", sender: self)
+    }
+    
+    @IBAction func GrammarButton(_ sender: UIButton) {
+        currentlyTrait = (sender.titleLabel?.text!)!
+        performSegue(withIdentifier: "Content", sender: self)
+    }
+    
+    @IBAction func PronounciationButton(_ sender: UIButton) {
+        currentlyTrait = (sender.titleLabel?.text!)!
+        performSegue(withIdentifier: "Content", sender: self)    }
+    
+    @IBAction func PracticeButton(_ sender: UIButton) {
+        currentlyTrait = (sender.titleLabel?.text!)!
+        performSegue(withIdentifier: "Content", sender: self)    }
+    
+    
+    
     
 }
+
+
+
+
+

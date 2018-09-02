@@ -11,7 +11,6 @@ import RealmSwift
 
 class UnitViewController: UIViewController {
     
-    
     @IBOutlet weak var collectionView: UICollectionView!
     
     let sectionInsets = UIEdgeInsets(top: 5.0, left: 5.0, bottom: 5.0, right: 5.0)
@@ -21,6 +20,7 @@ class UnitViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         collectionView.dataSource = self
         collectionView.delegate = self
         collectionView.register(UINib(nibName: "UnitCollectionViewCell", bundle: nil), forCellWithReuseIdentifier: "Cell")
@@ -28,6 +28,7 @@ class UnitViewController: UIViewController {
         self.title = "GRADE \(gradeDidSelected)"
     }
     
+        
 }
 
 extension UnitViewController : UICollectionViewDelegate, UICollectionViewDataSource {
@@ -81,3 +82,16 @@ extension UnitViewController : UICollectionViewDelegateFlowLayout {
         return sectionInsets.left
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -19,11 +19,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GjI-PP-udH">
-                                <rect key="frame" x="51" y="148" width="272" height="370"/>
+                                <rect key="frame" x="51" y="148" width="273" height="371"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tCk-gX-yZc">
                                         <rect key="frame" x="0.0" y="42" width="132" height="40"/>
-                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="1" green="0.14913141730000001" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="V1b-f5-kQR"/>
                                             <constraint firstAttribute="width" constant="132" id="wUJ-7R-KW6"/>
@@ -31,12 +31,12 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Vocaburaly"/>
                                         <connections>
-                                            <action selector="VocaburalyButton:" destination="WIg-wg-VfV" eventType="touchUpInside" id="H4p-m8-SAZ"/>
+                                            <action selector="VocaburalyButton:" destination="WIg-wg-VfV" eventType="touchUpInside" id="ijj-nk-2p9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cc4-xI-ggf">
-                                        <rect key="frame" x="0.0" y="165" width="132" height="40"/>
-                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="0.0" y="165.5" width="132" height="40"/>
+                                        <color key="backgroundColor" red="0.0" green="0.97680455450000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Oda-Jd-jjp"/>
                                             <constraint firstAttribute="width" constant="132" id="m9f-3W-j3H"/>
@@ -44,32 +44,32 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Pronounciation"/>
                                         <connections>
-                                            <action selector="PronounciationButton:" destination="WIg-wg-VfV" eventType="touchUpInside" id="rne-U0-wLa"/>
+                                            <action selector="PronounciationButton:" destination="WIg-wg-VfV" eventType="touchUpInside" id="dh1-dP-4Uh"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pgH-jI-wN6">
-                                        <rect key="frame" x="0.0" y="280" width="132" height="40"/>
+                                        <rect key="frame" x="0.0" y="281" width="132" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="132" id="XpL-T6-4a6"/>
                                             <constraint firstAttribute="height" constant="40" id="Z10-Zd-l17"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="Vocaburaly"/>
+                                        <state key="normal" title="Empty"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ilV-ck-tan">
-                                        <rect key="frame" x="140" y="280" width="132" height="40"/>
+                                        <rect key="frame" x="141" y="281" width="132" height="40"/>
                                         <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="2Dl-Vh-taH"/>
                                             <constraint firstAttribute="width" constant="132" id="gbl-U7-Nkp"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="Vocaburaly"/>
+                                        <state key="normal" title="Empty"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sbM-9k-Ka6">
-                                        <rect key="frame" x="140" y="42" width="132" height="40"/>
-                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="141" y="42" width="132" height="40"/>
+                                        <color key="backgroundColor" red="0.57919406890000003" green="0.1280144453" blue="0.57268613580000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="40" id="Fq1-eb-8bW"/>
                                             <constraint firstAttribute="width" constant="132" id="MY5-LV-xTW"/>
@@ -77,24 +77,39 @@
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <state key="normal" title="Grammar"/>
                                         <connections>
-                                            <action selector="GrammarButton:" destination="WIg-wg-VfV" eventType="touchUpInside" id="kKD-u6-zWI"/>
+                                            <action selector="GrammarButton:" destination="WIg-wg-VfV" eventType="touchUpInside" id="dL8-bM-vm3"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="beP-pM-u8A">
-                                        <rect key="frame" x="140" y="165" width="132" height="40"/>
-                                        <color key="backgroundColor" red="0.0" green="0.99143940210000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <rect key="frame" x="141" y="165.5" width="132" height="40"/>
+                                        <color key="backgroundColor" red="0.66799789669999998" green="0.47512125970000002" blue="0.25860109930000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="132" id="Mxg-bX-e9a"/>
                                             <constraint firstAttribute="height" constant="40" id="hlP-fl-JRi"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="Vocaburaly"/>
+                                        <state key="normal" title="Pactice"/>
+                                        <connections>
+                                            <action selector="PracticeButton:" destination="WIg-wg-VfV" eventType="touchUpInside" id="o6X-It-eFj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5mV-qu-GJU">
+                                        <rect key="frame" x="243" y="0.0" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="Sty-Rz-Iv8"/>
+                                            <constraint firstAttribute="height" constant="30" id="j7Y-Kn-6Wp"/>
+                                        </constraints>
+                                        <state key="normal" title="X"/>
+                                        <connections>
+                                            <action selector="X_Button:" destination="WIg-wg-VfV" eventType="touchUpInside" id="pT6-Mv-Mkh"/>
+                                        </connections>
                                     </button>
                                 </subviews>
-                                <color key="backgroundColor" red="0.7116315038071066" green="0.45099380279410811" blue="0.16361003010446323" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="tCk-gX-yZc" firstAttribute="top" secondItem="GjI-PP-udH" secondAttribute="top" constant="42" id="1M4-NT-ZMD"/>
                                     <constraint firstAttribute="trailing" secondItem="sbM-9k-Ka6" secondAttribute="trailing" id="30S-gW-983"/>
+                                    <constraint firstAttribute="trailing" secondItem="5mV-qu-GJU" secondAttribute="trailing" id="3vd-di-Ehh"/>
                                     <constraint firstItem="pgH-jI-wN6" firstAttribute="leading" secondItem="GjI-PP-udH" secondAttribute="leading" id="C25-Rq-ahl"/>
                                     <constraint firstAttribute="trailing" secondItem="ilV-ck-tan" secondAttribute="trailing" id="G5o-pC-0PF"/>
                                     <constraint firstItem="cc4-xI-ggf" firstAttribute="leading" secondItem="GjI-PP-udH" secondAttribute="leading" id="Krd-FM-1Hx"/>
@@ -103,6 +118,7 @@
                                     <constraint firstItem="sbM-9k-Ka6" firstAttribute="top" secondItem="GjI-PP-udH" secondAttribute="top" constant="42" id="cJ5-vW-jKL"/>
                                     <constraint firstAttribute="trailing" secondItem="beP-pM-u8A" secondAttribute="trailing" id="hrA-pe-DsT"/>
                                     <constraint firstItem="tCk-gX-yZc" firstAttribute="leading" secondItem="GjI-PP-udH" secondAttribute="leading" id="jdw-g5-q8w"/>
+                                    <constraint firstItem="5mV-qu-GJU" firstAttribute="top" secondItem="GjI-PP-udH" secondAttribute="top" id="jq6-lh-Sss"/>
                                     <constraint firstAttribute="bottom" secondItem="ilV-ck-tan" secondAttribute="bottom" constant="50" id="nMJ-EL-Gik"/>
                                     <constraint firstItem="beP-pM-u8A" firstAttribute="centerY" secondItem="GjI-PP-udH" secondAttribute="centerY" id="wfL-cc-Zwm"/>
                                 </constraints>
@@ -117,10 +133,49 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="apA-fF-yxF"/>
                     </view>
+                    <navigationItem key="navigationItem" id="AQB-fK-4mh"/>
+                    <connections>
+                        <segue destination="Ohd-SA-5og" kind="show" identifier="Content" id="cTt-wB-qAv"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oXS-yb-7Ri" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-178.40000000000001" y="-221.73913043478262"/>
+            <point key="canvasLocation" x="760.79999999999995" y="-221.73913043478262"/>
+        </scene>
+        <!--Content View Controller-->
+        <scene sceneID="xjl-Yz-QEu">
+            <objects>
+                <viewController id="Ohd-SA-5og" customClass="ContentViewController" customModule="ELS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="SJs-pg-rCU">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BM1-B2-RCU">
+                                <rect key="frame" x="164" y="318" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="button:" destination="Ohd-SA-5og" eventType="touchUpInside" id="CwE-dh-nbd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qHm-80-PwL">
+                                <rect key="frame" x="155" y="154" width="65" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="0.57637232540000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <state key="normal" title="Back"/>
+                                <connections>
+                                    <action selector="dismiss:" destination="Ohd-SA-5og" eventType="touchUpInside" id="VK4-D8-7Rx"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="o0G-fg-QKB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OWg-hx-09f" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1704.8" y="-220.83958020989508"/>
         </scene>
     </scenes>
 </document>
